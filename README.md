@@ -40,7 +40,7 @@ python Lipschitz_trivial_bound.py --weightpath ...utils/random_weights.mat
 ```
 which should generate something like this,
 
-```bash
+```
 INFO:root:Size of weight network is 4
 INFO:root:Lipschitz bound for layer 1 is 0.963
 INFO:root:Lipschitz bound for layer 2 is 4.377
