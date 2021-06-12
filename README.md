@@ -13,9 +13,7 @@ Then install the required dependencies.
 
 ```bash
 pip install -r requirements.txt
-```
-NOTE: I have used the CVXOPT solver here since using MOSEK requires a licence. For those having a MOSEK licence, it is recommended to use it since CVXOPT has reported problems with high-dimensional networks. Further, I have also used CVXPY instead of CVX which can lead to scalability issues and very high memory spikes.   
-
+``` 
 2. Given utilities:-
 
 A sample ```random_weights.mat``` file has been given to test the code. Users can plug in other weights (both random or pre-trained) without any difficulties. Here is a simple code snippet showing how to generate random weights for *resembling* a single hidden-layer neural network.
