@@ -6,7 +6,7 @@ Adversarial robustness of a network is defined by how much a certain trained neu
 ## Setup:-
 1. It is recommended to setup a fresh virtual environment first.
 ```bash
-python3 -m venv env
+python -m venv env
 source activate env/bin/activate
 ```
 Then install the required dependencies.
